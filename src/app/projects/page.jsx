@@ -1,9 +1,10 @@
-import Projects from '@/components/Projects';
-
-export default function ProjectsPage() {
+export default function Projects() {
   return (
-    <main>
-      <Projects />
+    <main
+      className="main-content"
+      style={{ padding: "120px 20px", minHeight: "80vh", fontSize: "1.6rem" }}
+    >
+      <p>My Projects !!</p>
     </main>
   );
 }

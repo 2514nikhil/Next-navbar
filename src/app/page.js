@@ -3,8 +3,7 @@ export default function Home() {
     <div id="home">
       <main
         className="main-content"
-        style={{ padding: "40px 20px", minHeight: "80vh" }}
-      >
+        style={{ padding: "120px 20px", minHeight: "80vh", fontSize: "1.6rem" }}>
         Welcome Home User !!
       </main>
     </div>

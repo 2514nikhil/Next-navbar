@@ -1,6 +1,9 @@
 export default function Skills() {
   return (
-    <main style={{ padding: "40px 20px", minHeight: "80vh" }}>
+    <main
+      className="main-content"
+      style={{ padding: "120px 20px", minHeight: "80vh", fontSize: "1.6rem" }}
+    >
       <p>Show your skills !!</p>
     </main>
   );

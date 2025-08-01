@@ -20,10 +20,26 @@ function HamburgerMenu() {
       {isOpen && (
         <nav className="mobile-menu open">
           <ul className="mobile-nav-links">
-            <li><Link href="/" onClick={() => setIsOpen(false)}>Home</Link></li>
-            <li><Link href="/skills" onClick={() => setIsOpen(false)}>Skills</Link></li>
-            <li><Link href="/projects" onClick={() => setIsOpen(false)}>Projects</Link></li>
-            <li><Link href="/connect" onClick={() => setIsOpen(false)}>Connect</Link></li>
+            <li>
+              <Link href="/" onClick={() => setIsOpen(false)}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="/skills" onClick={() => setIsOpen(false)}>
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link href="/projects" onClick={() => setIsOpen(false)}>
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link href="/connect" onClick={() => setIsOpen(false)}>
+                Connect
+              </Link>
+            </li>
           </ul>
         </nav>
       )}
