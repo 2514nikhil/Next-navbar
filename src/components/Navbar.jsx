@@ -18,13 +18,13 @@ function Navbar() {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/skills">Skills</a>
+              <a href="/about">About</a>
             </li>
             <li>
-              <a href="/projects">Projects</a>
+              <a href="/services">Services</a>
             </li>
             <li>
-              <a href="/connect">Connect</a>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </div>

@@ -1,10 +1,10 @@
-export default function Connect() {
+export default function About() {
   return (
     <main
       className="main-content"
       style={{ padding: "120px 20px", minHeight: "80vh", fontSize: "1.6rem" }}
     >
-      <p>Connect me here !!</p>
+      <p>About myself!!</p>
     </main>
   );
 }

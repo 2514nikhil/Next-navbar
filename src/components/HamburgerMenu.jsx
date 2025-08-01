@@ -26,18 +26,18 @@ function HamburgerMenu() {
               </Link>
             </li>
             <li>
-              <Link href="/skills" onClick={() => setIsOpen(false)}>
-                Skills
+              <Link href="/about" onClick={() => setIsOpen(false)}>
+                About
               </Link>
             </li>
             <li>
-              <Link href="/projects" onClick={() => setIsOpen(false)}>
-                Projects
+              <Link href="/services" onClick={() => setIsOpen(false)}>
+                Services
               </Link>
             </li>
             <li>
-              <Link href="/connect" onClick={() => setIsOpen(false)}>
-                Connect
+              <Link href="/contact" onClick={() => setIsOpen(false)}>
+                Contact
               </Link>
             </li>
           </ul>
