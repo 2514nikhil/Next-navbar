@@ -15,16 +15,24 @@ function Navbar() {
         <div className="navbar-center desktop-menu">
           <ul className="nav-buttons">
             <li>
-              <a href="/">Home</a>
+              <Link href="/" className="nav-link">
+                Home
+              </Link>
             </li>
             <li>
-              <a href="/about">About</a>
+              <Link href="/about" className="nav-link">
+                About
+              </Link>
             </li>
             <li>
-              <a href="/services">Services</a>
+              <Link href="/projects" className="nav-link">
+                Projects
+              </Link>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link href="/contact" className="nav-link">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>

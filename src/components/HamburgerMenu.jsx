@@ -32,7 +32,7 @@ function HamburgerMenu() {
             </li>
             <li>
               <Link href="/services" onClick={() => setIsOpen(false)}>
-                Services
+                Projects
               </Link>
             </li>
             <li>
